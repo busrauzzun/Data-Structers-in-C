@@ -6,7 +6,6 @@ struct priority_queue {
     int A[QUEUE_SIZE+1];
     int cnt;
 };
-
 typedef struct priority_queue pqueue;
 
 void initialize(pqueue *p){
