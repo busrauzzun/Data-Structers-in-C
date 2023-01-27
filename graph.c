@@ -20,7 +20,6 @@ struct node*addedge(struct node *heads[],int key){
 	return heads;
 }
 
-
 void print(struct node*heads[]){
 	int i;
     for(i=0;i<5;i++){
