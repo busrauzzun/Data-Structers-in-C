@@ -19,7 +19,6 @@ struct node*addedge(struct node *heads[],int key){
 	last->next=temp;
 	return heads;
 }
-
 void print(struct node*heads[]){
 	int i;
     for(i=0;i<5;i++){
@@ -36,11 +35,11 @@ int main(int argc, char *argv[]) {
 		heads[0]=addedge(heads[0],1);
 		heads[0]=addedge(heads[0],2);
 		heads[1]=addedge(heads[1],2);
-	    heads[1]=addedge(heads[1],3);
-	    heads[1]=addedge(heads[1],5);
-	    heads[2]=addedge(heads[2],3);
-	    heads[2]=addedge(heads[2],5);
-	    heads[2]=addedge(heads[2],4);
+	    	heads[1]=addedge(heads[1],3);
+	    	heads[1]=addedge(heads[1],5);
+	    	heads[2]=addedge(heads[2],3);
+	    	heads[2]=addedge(heads[2],5);
+	    	heads[2]=addedge(heads[2],4);
 		heads[3]=addedge(heads[3],4);
 		heads[3]=addedge(heads[3],5);
 		heads[4]=addedge(heads[4],5);
