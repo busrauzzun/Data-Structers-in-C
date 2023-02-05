@@ -8,10 +8,7 @@ struct node {
 };
 
 
-    
-
-
-struct node* insertFirst(struct node **head,int key){
+   struct node* insertFirst(struct node **head,int key){
 	if(head==NULL){
 		struct node *head=(struct node*)malloc(sizeof(struct node));
 		head->data=key;
@@ -54,9 +51,6 @@ struct node* bubblesort(struct node **head){
 		
 	return head;
 }
-
-
-
 
 
 int main() {
